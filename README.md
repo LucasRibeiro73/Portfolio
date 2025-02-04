@@ -1,7 +1,7 @@
 # Lucas Ribeiro │ Portfolio
 
 # Imagem do Projeto
-![imagem do projeto](./assets/image/lucas-ribeiro-portfolio.png "Link Bio Lucas Ribeiro Dev")
+![imagem do projeto](./assets/image/lucas-ribeiro-portfolio.png "Lucas Ribeiro Dev")
 
 Este repositório contém o código-fonte do meu site pessoal de portfólio. É uma vitrine digital onde apresento minhas habilidades e projetos como desenvolvedor web. O site demonstra minha abordagem ao desenvolvimento web, focando em design responsivo, interatividade e experiências de usuário otimizadas.
 
