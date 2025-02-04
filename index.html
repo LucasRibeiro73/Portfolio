@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/image/logo-white.png" type="image/x-icon">
+
+    <title>Lucas Ribeiro │ Desenvolvedor Freelancer</title>
+    <meta name="description"
+        content="LR Developer: Soluções digitais sob medida para impulsionar sua presença na web. Desenvolvemos sites, criamos landing pages e muito mais. Realize suas ideias digitais com a expertise da LR Developer.">
+
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Biblioteca das setas do sobre -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+        integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80XVHS2NWN">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-80XVHS2NWN');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '756368293168994');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=756368293168994&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inicio - Tela de Carregamento-->
+    <div id="loading-screen">
+        <div id="loading-percentage">0%</div>
+    </div>
+
+    <div class="loader"></div>
+    <!-- Fim - Tela de Carregamento-->
+    <!-- Inicio - Menu -->
+    <header id="header" class="header">
+        <div class="container-header">
+            <!--<div class="logo">
+                <a href="index.html">Lucas Ribeiro <span class="destaque">│Dev.</span></a>
+            </div>-->
+            <div class="container">
+                  <div class="tabs">
+                      <input type="radio" id="radio-1" name="tabs" checked />
+                      <label class="tab" for="radio-1">Início</label>
+                      <input type="radio" id="radio-2" name="tabs" />
+                      <label class="tab" for="radio-2">Sobre</label>
+                      <input type="radio" id="radio-3" name="tabs" />
+                      <label class="tab" for="radio-3">Skills</label>
+                      <input type="radio" id="radio-4" name="tabs" />
+                      <label class="tab" for="radio-4">Portfólio</label>
+                      <input type="radio" id="radio-5" name="tabs" />
+                      <label class="tab" for="radio-5">Contato</label>
+                      <span class="glider"></span>
+                  </div>
+            </div>
+        </div>
+    </header>
+    <!-- Fim - Menu -->
+
+    <!-- Inicio - Primeira seção (Início) -->
+    <section id="home" class="home">
+        <div id="particles-js"></div>
+        <div class="container-home">
+            <div class="text-home">
+                <h1>Lucas Ribeiro</h1>
+                <span>Desenvolvedor <span class="destaque texto-animado"></span></span>
+            </div>
+            <!--<div class="redes-sociais">
+                <a href="https://github.com/LucasRibeiro73" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lucas-ribeiro-7218a0153/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.tiktok.com/@riicardomoura" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/dev.lucasribeiro/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>-->
+        </div>
+    </section>
+    <!-- Fim - Primeira seção (Início)-->
+
+    <!--Sobre-->
+    <section id="sobre" class="sobre">
+        <div class="container-sobre">
+            <!--Slide Sobre-->
+            <div class="headline-sobre" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-scroll" id="headline-scroll">
+                    <span class="bold">SOBRE</span>
+                    <span class="divisor"></span>
+                    <span class="light">SOBRE</span>
+                    <span class="divisor"></span>
+                    <span class="bold">SOBRE</span>
+                    <span class="divisor"></span>
+                    <span class="light">SOBRE</span>
+                    <span class="divisor"></span>
+                    <span class="bold">SOBRE</span>
+                    <span class="divisor"></span>
+                    <span class="light">SOBRE</span>
+                    <span class="divisor"></span>
+                </div>
+            </div>
+            <!--Fim do Slide Sobre-->
+
+            <div class="conteudo-sobre">
+                <div class="left-sobre" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="textos-sobre">
+                        <h1>Olá, me chamo Lucas Ribeiro</h1></br></br></h1>
+                        <p>Sou desenvolvedor freelancer especializado em criar soluções digitais modernas e impactantes. Minha missão é transformar ideias em experiências online cativantes, ajudando você a se destacar no mundo digital.
+                            Com expertise em tecnologias como HTML, CSS e JavaScript, trabalho na criação de link bios, landing pages e portfólios profissionais que são visualmente atraentes, rápidos e funcionais.
+                            Se você busca um profissional dedicado que une criatividade e técnica para trazer resultados, você está no lugar certo!</p>
+                    </div>
+                    <div class="redes-sociais-sobre">
+                        <a href="https://www.instagram.com/dev.lucasribeiro/" target="_blank" rel="noopener noreferrer">INSTAGRAM<i class="bi bi-arrow-right"></i></a>
+                        <a href="https://github.com/LucasRibeiro73" target="_blank" rel="noopener noreferrer">GITHUB<i class="bi bi-arrow-right"></i></a>
+                        <a href="https://www.linkedin.com/in/lucas-ribeiro-7218a0153/" target="_blank" rel="noopener noreferrer">LINKEDIN<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="right-sobre" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="imagem-sobre">
+                        <img src="assets/image/sua-foto.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim Sobre-->
+        <!--Skills-->
+            <section id="skills" class="skills">
+                <div class="container-skills" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="headline-skills">
+                        <div class="text-headline-skills" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                            <h2>Minhas Skills</h2>
+                            <p>Domino uma variedade de tecnologias e ferramentas para entregar projetos de alta qualidade:</p>
+                        </div>
+                    </div>
+                    <div class="conteudo-skills">
+                        <div class="box-skills" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                            <i class="bi bi-terminal"></i>
+                            <h3>HTML5 & CSS3</h3>
+                            <p>Estruturas sólidas e design responsivo.</p>
+                        </div>
+                        <div class="box-skills" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                            <i class="bi bi-filetype-js"></i>
+                            <h3>JavaScript</h3>
+                            <p>Funcionalidades dinâmicas e interatividade.</p>
+                        </div>
+                        <div class="box-skills" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                            <i class="bi bi-book"></i>
+                            <h3>Frameworks e Bibliotecas</h3>
+                            <p>Experiência com ferramentas modernas para otimizar e acelerar processos.</p>
+                        </div>
+                        <div class="box-skills" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                            <i class="bi bi-palette"></i>
+                            <h3>UX/UI Design</h3>
+                            <p>Foco em interfaces intuitivas e experiências que encantam os usuários.
+                                Cada projeto é desenvolvido com atenção aos detalhes, garantindo qualidade, inovação e alinhamento às suas necessidades.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <!--Fim Skills-->
+            
+            <!--Portfolio-->
+            <section id="portfolio" class=portfolio>
+                <div class="container-portfolio" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="headline-portfolio">
+                        <div class="text-headline-portfolio" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                            <h2>Portfólio</h2>
+                            <p>Confira projetos personalizados para atender demandas únicas, como landing pages de alta conversão, link bios e portfólios profissionais. Gostou? Entre em contato e traga sua ideia à vida!</p>
+                        </div>
+                    </div>
+                    <div class="conteudo-portfolio">
+                        <div class="box-portfolio" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                            <figure>
+                                <img src="./assets/image/projeto-1-rom (2).png" alt="Teste" />
+                            </figure>
+                            <h3>Vitrine Digital</h3>
+                            <p>Um portfólio elegante para mostrar talentos ou produtos.</p>
+                            <button class="button-portfolio" onclick="window.open('./Portfólio/Modelo 2/index.html', '_blank')">Clique e veja o modelo completo</button>
+                        </div>
+                        <div class="box-portfolio" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                            <figure>
+                                <img src="./assets/image/projeto-2-tread (2).png" alt="Teste" />
+                            </figure>
+                            <h3>Pixel Perfeito</h3>
+                            <p>Para projetos que destacam design e atenção aos detalhes.</p>
+                            <button class="button-portfolio" onclick="window.open('./Portfólio/Modelo 1/index.html', '_blank')">Clique e veja o modelo completo</button>
+                        </div>
+                        <div class="box-portfolio" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                            <figure>
+                                <img src="./assets/image/projeto-3-copfy.png" alt="Teste" />
+                            </figure>
+                            <h3>Portfólio Prime</h3>
+                            <p>Um portfólio moderno, interativo e profissional.</p>
+                            <button class="button-portfolio" onclick="window.open('./Portfólio/Modelo 3/index.html', '_blank')">Clique e veja o modelo completo</button>
+                        </div>
+                        <div class="box-portfolio" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                            <figure>
+                                <img src="./assets/image/projeto-Ebook.png" alt="Teste" />
+                            </figure>
+                            <h3>TechPro</h3>
+                            <p>Descubra o poder da tecnologia com nossos designers inovadores.</p>
+                            <button class="button-portfolio" onclick="window.open('./Portfólio/Modelo 4/index.html', '_blank')">Clique e veja o modelo completo</button>
+                        </div>
+                        <div class="box-portfolio" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                            <figure>
+                                <img src="./assets/image/projeto-saude.png" alt="Teste" />
+                            </figure>
+                            <h3>SereneMente</h3>
+                            <p>Conectando emoções e transformando vidas: uma landing page para psicologos.</p>
+                            <button class="button-portfolio" onclick="window.open('./Portfólio/Modelo 5/index.html', '_blank')">Clique e veja o modelo completo</button>
+                        </div>
+                        <div class="box-portfolio" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                            <figure>
+                                <img src="./assets/image/linkbio-3.png" alt="Teste" />
+                            </figure>
+                            <h3>PortBio</h3>
+                            <p>Seu portfólio em formato de LinkBio: simples, elegante e feito para conectar.</p>
+                            <button class="button-portfolio" onclick="window.open('./Portfólio/Modelo 8/index.html', '_blank')">Clique e veja o modelo completo</button>
+                        </div>
+                        <div class="box-portfolio" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
+                            <figure>
+                                <img src="./assets/image/linkbio-simples.png" alt="Teste" />
+                            </figure>
+                            <h3>LinksBio</h3>
+                            <p>Design Minimalista, Resultados Máximos. Seu Universo em um Clique!</p>
+                            <button class="button-portfolio" onclick="window.open('./Portfólio/Modelo 6/index.html', '_blank')">Clique e veja o modelo completo</button>
+                        </div>
+                        <div class="box-portfolio" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+                            <figure>
+                                <img src="./assets/image/linkbio-completo.png" alt="Teste" />
+                            </figure>
+                            <h3>LinkHub</h3>
+                            <p>Links que fazem a diferença, design que encanta.</p>
+                            <button class="button-portfolio" onclick="window.open('./Portfólio/Modelo 7/index.html', '_blank')">Clique e veja o modelo completo</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fim Portfolio-->
+    
+            <!--Contato-->
+            <section id="contato" class="contato">
+                <div class="container-contato" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="headline-contato" data-aos="fade-up" data-aos-delay="200">
+                        <div class="titulo-contato">
+                            <h1>Contato</h1>
+                        </div>
+                        <div class="descricao-contato">
+                            <ul class="lista-contato">
+                                <li><a href="https://wa.me/5541995234918" target="_blank" rel="noopener noreferrer">WhatsApp: (41) 99523 - 4918</a></li>
+                                <li><a href="#">Lucas.mRibeiro.Dev@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="conteudo-contato" data-aos="fade-up" data-aos-delay="400">
+                        <div class="formulario-contato">
+                            <h2>Entre em contato</h2>
+                            <p>Pronto para transformar sua ideia em realidade? Estou aqui para ajudar!<br>Me envie uma mensagem contando sobre seu projeto.<br>
+                                Pergunte sobre preços, prazos ou como posso agregar valor ao seu negócio.</p>
+                                <form class="form" id="contato-form">
+                                    <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                                    <input type="tel" id="telefone" placeholder="(55) 22222-2222" required>
+                                    <input type="email" id="email" placeholder="Seu melhor email" required>
+                                    <textarea id="mensagem" placeholder="Escreva o que você deseja aqui..." required></textarea>
+                                    <button type="submit" class="btn-contato">Enviar</button>
+                                </form>                                
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fim Contato-->
+    
+            <!--Footer-->
+                <footer class="footer" id="footer">
+                    <div class="container-footer">
+                        <div class="footer-column logo-column">
+                            <img src="./assets/image/logo-white.png" alt="">
+                        </div>
+                        <div class="footer-column menu-column">
+                            <nav class="footer-nav">
+                                <a href="#home">Início</a>
+                                <a href="#sobre">Sobre</a>
+                                <a href="#skills">Skills</a>
+                                <a href="#portfolio">Portfólio</a>
+                                <a href="#contato">Contato</a>
+                            </nav>
+                        </div>
+                        <div class="footer-column social-column">
+                            <ul class="social-links">
+                                <li><a href="https://www.instagram.com/dev.lucasribeiro/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i> Instagram</a></li>
+                                <li><a href="https://github.com/LucasRibeiro73" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a></li>
+                                <li><a href="https://www.linkedin.com/in/lucas-ribeiro-7218a0153/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                                <li><a href="https://wa.me/5541995234918" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column credits-column">
+                        <p>&copy; 2024 Todos os direitos reservados.</p>
+                        <p>Desenvolvido por Lucas Ribeiro.</p>
+                    </div>
+                </footer>
+    <!--Fim Footer-->
+
+    <!-- Inicio - Scripts externos-->
+    <script src="/assets/js/menu.js"></script>
+    <script src="/assets/js/textAnimation.js"></script>
+    <script src="/assets/js/particles.js"></script>
+    <script src="assets/js/changePagesAnimation.js"></script>
+    <script src="assets/js/loadingAnimation.js"></script>
+    <script src="/assets/js/slideSobre.js"></script>
+    <script src="/assets/js/email.js"></script>
+    <!-- Fim - Scripts externos-->
+</body>
+
+</html>

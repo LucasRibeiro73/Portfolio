@@ -1,0 +1,692 @@
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagem-sobre {
+        display: none;
+    }
+    .imagem-sobre img {
+        display: none;
+    }
+    .right-sobre {
+        display: none;
+    }
+    .left-sobre{
+        width: 100%;
+        height: 500px;
+        margin-top: 150px;
+    }
+    .descricao-contato{
+        transform: scale(0.6);
+        width: 100%;
+    }
+    .conteudo-contato{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .formulario-contato{
+        justify-content: start;
+    }
+    .container-contato{
+        height:800px;
+    }
+    .titulo-contato{
+        margin-left: 20px;
+    }
+    .form{
+        justify-content: start;
+    }
+    .form textarea{
+        height: 20%;
+    }
+    .headline-contato{
+        height: 250px;
+        margin-top: -100px;
+    }
+    .tabs {
+        transform: scale(0.7)
+    }
+
+    /*Header*/
+    .logo {
+        font-size: 1.8rem;
+    }
+    .header-fixed{
+        background: transparent;
+    }
+    .menu-icon, .close-icon {
+        font-size: 2.2rem;
+    }
+
+    /*Menu Navegação*/
+    .lista-navegacao li {
+        font-size: 3rem;
+    }
+
+    /*Home*/
+    .text-home h1 {
+        font-size: 4rem;
+    }
+
+    .text-home span {
+        font-size: 2.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.8rem;
+    }
+
+    /*Headline*/
+    .headline span {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 {
+        font-size: 3rem;
+    }
+
+}
+
+/*@media (min-width: 321px) and (max-width: 425px){
+    body{
+        padding: 0rem 0rem;
+    }
+    .header-fixed{
+        height: 50px;
+    }
+    .headline-contato{
+        height: 50px;
+        width: 100px;
+    }
+    .titulo-contato{
+        width:100%;
+        justify-content: left;
+    }
+    .imagem-sobre {
+        display: none;
+    }
+    .imagem-sobre img {
+        display: none;
+    }
+    .right-sobre {
+        display: none;
+    }
+    .left-sobre{
+        width: 100%;
+        margin-top: -110px;
+    }
+    .tabs {
+        transform: scale(0.3);
+        margin-top: -33px;
+    }
+    .descricao-contato{
+        display: None;
+    }
+    .headline-scroll span{
+        font-size: 2rem;
+    }
+    .textos-sobre h1 {
+        text-align: center;
+    }
+    .headline-scroll {
+        margin-top: 80px;
+    }
+    .textos-sobre p {
+        text-align: center;
+    }
+    .logo-column img{
+        margin-top: 0px;
+    }
+    .headline-sobre{
+        display: none;
+    }
+}*/
+
+@media (max-width: 320px){
+    body{
+        width: 100%;
+    }
+    .imagem-sobre {
+        display: none;
+        width: 0px;
+    }
+    .imagem-sobre img {
+        display: none;
+        width: 0px;
+    }
+    .right-sobre {
+        display: none;
+        width: 0px;
+    }
+    .left-sobre{
+        width: 100%;
+        margin-top: -100px;
+    }
+    .tabs {
+        transform: scale(0.2)
+    }
+    .descricao-contato{
+        display: None;
+        width: 0px;
+    }
+    .textos-sobre p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .textos-sobre h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .formulario-contato p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .formulario-contato h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .headline-contato{
+        justify-content: left;
+        height: 100px;
+    }
+    .headline-sobre{
+        display: none;
+        width: 0px;
+    }
+    .header-fixed{
+        height: 50px;
+    }
+    .container{
+        margin-top: -15px;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .container-footer{
+        width: 100vw;
+    }
+    .logo-column{
+        display: none;
+        width: 0px;
+    }
+}
+/* IPHONE PRO */
+@media (min-width: 385px) and (max-width: 427px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .sobre{
+        height: 1000px;
+    }
+    .tabs{
+        transform: scale(0.35);
+    }
+    .header{
+        width: 385px;
+    }
+    .descricao-contato{
+        display: none;
+        width:0px;
+        text-align: right;
+        transform: scale(0.3);
+    }
+    .titulo-contato{
+        text-align: center;
+        justify-content: center;
+        margin-left: -15px;
+    }
+    .formulario-contato p{
+        font-size: 1rem;
+        width: 90%;
+
+    }
+    .formulario-contato{
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -100px;
+    }
+    .imagem-sobre {
+        display: none;
+    }
+    .imagem-sobre img {
+        display: none;
+    }
+    .right-sobre {
+        display: none;
+        width: 0;
+    }
+    .left-sobre{
+        width: 100%;
+        height: 100vh;
+        margin-top: 150px;
+    }
+    .logo-column{
+        display: none;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .textos-sobre h1 {
+        font-size: 2rem;    
+        text-align: center;
+    }
+    .textos-sobre p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .form input, .form textarea{
+        font-size: 1rem;
+    }
+}
+/* TELAS GRANDES */
+@media (min-width: 1441PX){
+    .conteudo-skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/* NOTEBOOKS */
+@media (min-width: 1024px) and (max-width: 1440px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .conteudo-skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container-contato{
+        width: 70%;
+    }
+    .descricao-contato a{
+        font-size: 1rem;
+    }
+    .left-sobre{
+        height: 100vh;
+    }
+    .conteudo-sobre{
+        margin-top: 200px;
+    }
+    .sobre {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 153, 255, 0.9) 100%);
+        width: 100vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1rem;
+        z-index: 1;
+        user-select: none;
+        overflow: visible;
+    }
+    .contato{
+        height: auto;
+        z-index: 3;
+    }
+    .footer{
+        display: block;
+        
+    }
+    .container-footer{
+        margin-top: 100px;
+    }
+
+}
+/* SAMSUNG Z FOLD */
+@media (min-width: 320px) and (max-width: 384px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .sobre{
+        height: 1000px;
+    }
+    .tabs{
+        transform: scale(0.3);
+    }
+    .header{
+        padding: 0rem 0rem;
+    }
+    .descricao-contato{
+        display: none;
+        width:0px;
+        text-align: right;
+        transform: scale(0.3);
+    }
+    .titulo-contato{
+        text-align: center;
+        justify-content: center;
+    }
+    .formulario-contato p{
+        font-size: 1rem;
+        width: 90%;
+    }
+    .formulario-contato{
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .imagem-sobre {
+        display: none;
+    }
+    .imagem-sobre img {
+        display: none;
+    }
+    .right-sobre {
+        display: none;
+        width: 0;
+    }
+    .left-sobre{
+        width: 100%;
+        height: 100vh;
+        margin-top: 150px;
+    }
+    .logo-column{
+        display: none;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .textos-sobre h1 {
+        font-size: 2rem;    
+        text-align: center;
+    }
+    .textos-sobre p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .form input, .form textarea{
+        font-size: 1rem;
+    }
+    .headline-contato{
+        margin-left: -5px;
+    }
+    .titulo-contato h1{
+        width: 100%;
+    }
+}
+/* IPHONE PRO MAX*/
+@media (min-width: 428px) and (max-width: 435px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .header{
+        padding: 0rem 0rem;
+        max-width: 429px;
+    }
+    .imagem-sobre {
+        display: none;
+    }
+    .imagem-sobre img {
+        display: none;
+    }
+    .right-sobre {
+        display: none;
+    }
+    .left-sobre{
+        width: 100%;
+        height: 100vh;
+        margin-top: 150px;
+    }
+    .container-skills{
+        margin-top: 300px;
+    }
+    .descricao-contato{
+        display: none;
+        width:0px;
+        text-align: right;
+        transform: scale(0.3);
+    }
+    .conteudo-contato{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .formulario-contato{
+        margin-left: -20px;
+    }
+    .container-contato{
+        height:800px;
+    }
+    .titulo-contato{
+        margin-left: 80px;
+    }
+    .form{
+        justify-content: start;
+    }
+    .form textarea{
+        height: 20%;
+        font-size: 1rem;
+    }
+    .form input{
+        font-size: 1rem;
+    }
+    .logo-column {
+        display: none;
+    }
+    .headline-contato{
+        height: 250px;
+    }
+    .tabs {
+        transform: scale(0.4)
+    }
+    .formulario-contato p {
+        font-size: 1rem;
+    }
+    .footer{
+        width: 100vw;
+    }
+
+    /*Header*/
+    .logo {
+        font-size: 1.8rem;
+    }
+    .header-fixed{
+        background: transparent;
+        max-width: 429px;
+    }
+    .menu-icon, .close-icon {
+        font-size: 2.2rem;
+    }
+
+    /*Menu Navegação*/
+    .lista-navegacao li {
+        font-size: 3rem;
+    }
+
+    /*Home*/
+    .text-home h1 {
+        font-size: 4rem;
+    }
+
+    .text-home span {
+        font-size: 2.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.8rem;
+    }
+
+    /*Headline*/
+    .headline span {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 {
+        font-size: 3rem;
+    }
+
+}
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Header*/
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .menu-icon, .close-icon {
+        font-size: 2rem;
+    }
+
+    /*Menu Navegação*/
+    .lista-navegacao li {
+        font-size: 3rem;
+    }
+
+    /*Home*/
+    .text-home h1 {
+        font-size: 5.5rem;
+    }
+
+    .text-home span {
+        font-size: 3.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.6rem;
+    }
+
+    /*Headline*/
+    .headline span {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 {
+        font-size: 3.1rem;
+    }
+
+    /*About*/
+
+    .about {
+        width: 95%;
+        height: calc(100vh - 90px);
+    }
+
+    .container-about {
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+    }
+
+    .content-about {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .content-about-left {
+        width: 50%;
+        height: 100%;
+    }
+
+    .content-about-right {
+        width: 50%;
+        height: 100%;
+    }
+
+
+    .content-about-left h1 {
+        font-size: 2rem;
+    }
+
+    .cta-about {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.6rem;
+    }
+    
+    .btn-about {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .about-social {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        gap: 0.8rem;
+        cursor: pointer;
+        height: 100%;
+        padding: 0;
+    }
+
+    .card-tech {
+        width: 150px;
+        height: 150px;
+    }
+
+    /*Projetos*/
+    .projects {
+        width: 95%;
+        height: auto;
+    }
+
+    .cards-projects {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem; 
+        justify-items: center; 
+    }
+
+    .card-project {
+        max-width: 420px; 
+        width: 100%; 
+    }
+
+    /*Contato*/
+    .contact {
+        width: 95%;
+        height: calc(100vh - 90px - 60px);
+    }
+
+    .container-contact {
+        height: calc(100vh - 90px);
+    }
+    
+    .content-contact {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: calc(100vh - 90px);
+    }
+
+    .left-contact, .right-contact {
+        max-width: 48%;
+    }
+
+    .text-contact h1 {
+        font-size: 2.5rem;
+    }
+}
