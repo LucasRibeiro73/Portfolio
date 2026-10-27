@@ -28,4 +28,4 @@ npx serve .
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/lucas-ribeiro-7218a0153/) · [lucas.mribeiro.dev@gmail.com](mailto:lucas.mribeiro.dev@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/lucasribeiro-backend) · [lucas.mribeiro.dev@gmail.com](mailto:lucas.mribeiro.dev@gmail.com)
